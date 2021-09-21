@@ -1,0 +1,34 @@
+@import url("https://fonts.googleapis.com/css2?family=Autour+One&display=swap");
+
+.App {
+  font-family: "Autour One", cursive;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+button {
+  font-family: "Autour One", cursive;
+  margin: 1rem;
+  padding: 1rem;
+  border-radius: 1rem;
+  background-image: linear-gradient(62deg, #fbab7e 0%, #f7ce68 100%);
+  font-size: 1.5rem;
+}
+
+li {
+  max-width: 600px;
+  list-style: none;
+  margin: 1rem auto;
+  padding: 2rem;
+  border: 1px solid red;
+  border-radius: 1rem 2rem;
+  display: flex;
+  justify-content: space-around;
+  background-image: linear-gradient(160deg, #0093e9 0%, #80d0c7 100%);
+}
+
+ion-icon {
+  color: red;
+  pointer-events: none;
+  cursor: pointer;
+}
